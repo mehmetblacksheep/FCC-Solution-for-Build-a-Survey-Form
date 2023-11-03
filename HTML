@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surver Form</title>
+    </head>
+    <body>
+      <header>
+      <h1 id="title">Ne kadar yörüksün Surver Form</h1>
+      <p id="description"> Ne kadar yörüksün hadi görelim</p>
+      <hr>
+      </header>
+      <main>
+      <form id="survey-form">
+      <label for="name" id="name-label"> Please enter your name: </label>
+      <input id="name" type="text" required placeholder="Mehmet Karakoyun">
+<hr>
+
+      <label for="email" id="email-label"> Please enter your e-mail: </label>
+      <input id="email" type="email" required placeholder="karakoyun@gmail.com">
+<hr>
+
+      <label for="number" id="number-label"> Please enter your age: </label>
+      <input id="number" type="number" min="7" max="100" placeholder="age" required>
+      <hr>
+      <label for="dropdown"> Ayran or Kefir</label>
+ <select id="dropdown">
+   <option> Ayran </option>
+   <option> Kefir </option>
+   </select>
+   <hr>
+   <label for="dropdown"> Peynir or Çökelek</label>
+<input type="radio" name="radio-group" id="peynir" value="0">
+<label for="peynir"> Peynir </label>
+<input type="radio" name="radio-group" id="çökelek" value="1">
+<label for="Çökelek"> Çökelek </label>
+<hr>
+<label for="dropdown"> Davar or Koyun</label>
+<input type="checkbox" value="0" id="davar">
+<label for="davar"> Davar </label>
+<input type="checkbox" value="1" id="koyun">
+<label for="davar"> Koyun </label>
+<hr>
+<textarea>
+  Please enter your additional comment here:
+  </textarea>
+  <hr>
+      <input id="submit" type="submit">
+</form>
+</main>
+</body>
+  </html>
